@@ -62,35 +62,42 @@ const About = () => {
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "15deg", top: "10%", left: "15%" }}
-              image="assets/logos/python-logo-black-and-white.png"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-20deg", top: "20%", left: "60%" }}
-              image="assets/logos/c++-brandlogo.net.png"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "45deg", top: "5%", left: "80%" }}
-              image="assets/logos/R_logo.svg.png"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-10deg", top: "40%", left: "10%" }}
-              image="assets/logos/JavaScript_logo.png"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-10deg", top: "80%", left: "10%" }}
-              image="assets/logos/github.png"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "60deg", top: "55%", left: "85%" }}
-              image="assets/logos/mongo-db.png"
-              containerRef={grid2Container}
-            />
+  style={{ rotate: "15deg", top: "10%", left: "15%" }}
+  image="assets/logos/python-logo-black-and-white.png"
+  containerRef={grid2Container}
+/>
+<Card
+  style={{ rotate: "-20deg", top: "20%", left: "60%" }}
+  image="assets/logos/c++-brandlogo.net.png"
+  containerRef={grid2Container}
+/>
+<Card
+  style={{ rotate: "45deg", top: "5%", left: "80%" }}
+  image="assets/logos/R_logo.svg.png"
+  containerRef={grid2Container}
+/>
+<Card
+  style={{ rotate: "-10deg", top: "40%", left: "10%" }}
+  image="assets/logos/JavaScript_logo.png"
+  containerRef={grid2Container}
+/>
+<Card
+  style={{ rotate: "-10deg", top: "80%", left: "10%" }}
+  image="assets/logos/github.png"
+  containerRef={grid2Container}
+/>
+{/* Web Technologies */}
+
+<Card
+  style={{ rotate: "60deg", top: "55%", left: "85%" }}
+  image="assets/logos/mongo-db.png"
+  containerRef={grid2Container}
+/>
+<Card
+  style={{ rotate: "25deg", top: "70%", left: "35%" }}
+  image="assets/logos/react-svgrepo-com.svg"
+  containerRef={grid2Container}
+/>
           </div>
         </div>
         
@@ -120,15 +127,24 @@ const About = () => {
         {/* Grid 5 */}
         <div className="grid-default-color grid-5">
           <div className="z-10 w-[50%]">
-            <p className="headtext">Tech Stack</p>
-            <div className="subtext">
-              <div className="text-sm space-y-2">
-                <p><span className="text-blue-400">•</span> <strong>MERN Stack:</strong> MongoDB, Express.js, Node.js</p>
-                <p><span className="text-green-400">•</span> <strong>Languages:</strong> Python, C/C++, JavaScript, R</p>
-                <p><span className="text-purple-400">•</span> <strong>ML/DataScience</strong></p>
-                <p><span className="text-cyan-400">•</span> <strong>Tools:</strong> GitHub | MatLab | Linux | Kaggle | AutoCad | GNS3 | Arduino | VScode | Xcode | Rstudio</p>
-              </div>
-            </div>
+            <p className="headText">Teck Stack</p>
+            <p className="subtext">
+            <div className="z-10 w-[50%]">
+  
+  
+  
+  <div className="text-sm space-y-2">
+    <p><span className="text-blue-400">•</span> <strong>MERN Stack:</strong> MongoDB, Express.js,  Node.js</p>
+    <p><span className="text-green-400">•</span> <strong>Languages:</strong> Python, C/C++, JavaScript, R, SQL</p>
+    <p><span className="text-purple-400">•</span> <strong>ML/DataScience</strong></p>
+    <p><span className="text-pink-400">•</span> <strong>Frontend:</strong> React, Redux, Redux-Saga, React Context, SCSS</p>
+    <p><span className="text-orange-400">•</span> <strong>Cloud & APIs:</strong> Amazon S3, RESTful APIs, Postman</p>
+    <p><span className="text-yellow-400">•</span> <strong>Product & Analytics:</strong> Jira, Google Analytics 4, Microsoft Clarity, A/B Testing</p>
+    <p><span className="text-cyan-400">•</span> <strong>Tools:</strong> GitHub|MatLab|Linux|Kaggle|AutoCad|GNS3|
+    Arduino|VScode|Xcode|Rstudio</p>
+  </div>
+</div>
+            </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
             <Frameworks />

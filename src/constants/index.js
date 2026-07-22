@@ -95,6 +95,64 @@ export const myProjects = [
     ],
   },
   {
+    id: 5,
+    title: "AI Resume Matching & Candidate Analytics Platform",
+    description: "An NLP-based resume-matching engine that ranks resumes against a job description and surfaces candidate insights through an interactive analytics dashboard.",
+    subDescription: [
+      "Engineered an NLP-based resume-matching engine with TF-IDF and Scikit-Learn that ranks 1000+ resumes against a job description by cosine similarity, automating the initial shortlisting pass that was previously done manually",
+      "Built an interactive Streamlit analytics dashboard backed by MongoDB for resume parsing, skill extraction and candidate insights, surfacing per-candidate match scores and skill gaps in a single reviewer view",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/resume-matcher.png",
+    tags: [
+      {
+        id: 1,
+        name: "Python",
+        path: "/assets/logos/python-svgrepo-com.svg",
+      },
+      {
+        id: 2,
+        name: "Scikit-Learn",
+        path: "/assets/logos/python-svgrepo-com.svg",
+      },
+      {
+        id: 3,
+        name: "Streamlit",
+        path: "/assets/logos/streamlit-logo-primary-colormark-lighttext.png",
+      },
+      {
+        id: 4,
+        name: "MongoDB",
+        path: "/assets/logos/mongo-db.png",
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "NLP-Based Market Sentiment Analyzer",
+    description: "An NLP pipeline that predicts stock-market movement from tweet sentiment using semantic graphs and trained ML classifiers, recognized in the Top 1% at Technalytics, IIT BHU.",
+    subDescription: [
+      "Built an NLP pipeline to predict stock-market movement from tweet sentiment using semantic graphs and trained ML classifiers; recognized in the Top 1% at Technalytics, IIT BHU",
+      "Implemented NER and dependency-parsing features across 4 entity types to extract relationships from tweets, capturing predictive signal beyond simple sentiment polarity",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/sentiment-analyzer.png",
+    tags: [
+      {
+        id: 1,
+        name: "Python",
+        path: "/assets/logos/python-svgrepo-com.svg",
+      },
+      {
+        id: 2,
+        name: "NLP",
+        path: "/assets/logos/python-svgrepo-com.svg",
+      },
+    ],
+  },
+  {
     id: 4,
     title: "Hospital Management System",
     description: "Comprehensive system for streamlining administrative, clinical, and financial operations in healthcare facilities.",
@@ -138,6 +196,20 @@ export const mySocials = [
 
 export const experiences = [
   {
+    title: "Software Development Engineer Intern",
+    job: "DotPe",
+    date: "Feb 2026 - July 2026",
+    contents: [
+      "Architected a five-module, configuration-driven Loyalty Program platform (wizard, state/API layer, customer experience, checkout redemption, analytics) for DotPe's CRM & Loyalty SaaS product, letting 1000+ merchants launch visit-based or point-based rewards without custom engineering.",
+      "Engineered the shared state and API layer using Redux and Redux-Saga, with React Context isolating in-progress wizard data across 13 configuration steps; flattened step data into a single validated payload per program.",
+      "Built draft save/resume and publish pipelines with step-level validation and a program-type-aware rewards screen, serving all static UI assets from Amazon S3 while maintaining complete data isolation across merchant configurations.",
+      "Optimized API endpoint routing by migrating frontend requests to an internal API gateway, cutting redundant external calls and lowering infrastructure overhead while preserving full backward compatibility.",
+      "Designed the checkout redemption flow with OTP-backed point blocking/unblocking and mode-aware (earn/burn/both) exclusions handling, passing all end-to-end test scenarios with zero regressions.",
+      "Instrumented Google Analytics 4 (GA4) event tracking with merchant/user custom dimensions across 25+ tracked events, lifting engagement by 22%.",
+      "Diagnosed and resolved 50+ frontend defects through debugging, root-cause analysis and code reviews across 6 production releases.",
+    ],
+  },
+  {
     title: "Computer Engineering Student",
     job: "Thapar Institute of Engineering and Technology",
     date: "Sep 2022 - May 2026",
@@ -173,8 +245,18 @@ export const experiences = [
 ];
 
 export const reviews = [
-  
-  
+  {
+    name: "SaaS Platform Architecture",
+    username: "@dotpe_engineering",
+    body: "Architected a five-module, configuration-driven Loyalty Program platform at DotPe, letting 1000+ merchants launch rewards programs without custom engineering.",
+    img: "https://robohash.org/dotpe",
+  },
+  {
+    name: "Resume Intelligence Tooling",
+    username: "@nlp_hiring",
+    body: "Built an NLP-based resume-matching engine with TF-IDF and Scikit-Learn that ranks 1000+ resumes against a job description, automating initial shortlisting.",
+    img: "https://robohash.org/resumematch",
+  },
   {
     name: "Stock Prediction Innovation",
     username: "@ml_community",

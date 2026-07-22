@@ -15,6 +15,7 @@ export function Frameworks() {
     "matlab-svgrepo-com",
     "kaggle-svgrepo-com",
     "sql-svgrepo-com",
+    "react-svgrepo-com",
   ];
 
   // Create a copy for the reverse orbit to avoid mutating the original array
