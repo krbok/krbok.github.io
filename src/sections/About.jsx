@@ -20,8 +20,8 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hi, I'm Kritik</p>
             <p className="subtext">
-              Passionate about Back-end development, machine learning, and building 
-              innovative solutions that solve real-world problems.
+              Full-stack software engineer building production SaaS, agentic AI
+              and real-time systems with TypeScript, Node.js, React and Flutter.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />

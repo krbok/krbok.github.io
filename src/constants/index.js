@@ -1,5 +1,36 @@
 export const myProjects = [
   {
+    id: 0,
+    title: "Sowaka: Multi-Tenant HRMS SaaS with an AI Assistant",
+    description: "A production HR platform I built end to end as primary engineer: a Node.js/Express REST API, a React 19 dashboard and a Flutter iOS/Android app, live with paying clients. The screenshots use a demo company with made-up people.",
+    subDescription: [
+      "Suwi, an agentic AI assistant with LLM tool calling over 120+ HR tools (OpenAI, Claude, Gemini), with streaming, prompt caching, role-based access, audit logs and human-in-the-loop approval.",
+      "Indian payroll engine (PF, ESI, PT, TDS, gratuity) with monthly runs, loss of pay, final settlements, PDF payslips and AES-256-GCM salary encryption.",
+      "Real-time multiplayer games, live tournaments and a social feed on Socket.IO and Redis.",
+      "Attendance with geofenced check-in and biometric (SQL Server) integration, onboarding and offboarding journeys, leave, claims, KPIs and reviews, secured with RBAC.",
+      "Runs on AWS (EC2, S3, CloudFront) behind Nginx with zero-downtime blue-green deployments and 90+ automated integration test suites.",
+    ],
+    image: "/assets/projects/sowaka/dashboard-overview.jpg",
+    gallery: [
+      { src: "/assets/projects/sowaka/dashboard-overview.jpg", caption: "Dashboard: HR overview with Suwi's nudges" },
+      { src: "/assets/projects/sowaka/dashboard-payroll.jpg", caption: "Dashboard: monthly payroll runs" },
+      { src: "/assets/projects/sowaka/dashboard-calendar.jpg", caption: "Dashboard: company attendance calendar" },
+      { src: "/assets/projects/sowaka/dashboard-offboarding.jpg", caption: "Dashboard: offboarding board" },
+      { src: "/assets/projects/sowaka/dashboard-games.jpg", caption: "Dashboard: games and engagement analytics" },
+      { src: "/assets/projects/sowaka/app-onboarding.jpg", caption: "App: a new joiner's first day", phone: true },
+      { src: "/assets/projects/sowaka/app-team.jpg", caption: "App: a manager's team view", phone: true },
+    ],
+    tags: [
+      { id: 1, name: "TypeScript", path: "/assets/logos/typescript.svg" },
+      { id: 2, name: "Node.js", path: "/assets/logos/nodejs.svg" },
+      { id: 3, name: "React", path: "/assets/logos/react.svg" },
+      { id: 4, name: "Flutter", path: "/assets/logos/flutter.svg" },
+      { id: 5, name: "MongoDB", path: "/assets/logos/mongodb-svgrepo-com.svg" },
+      { id: 6, name: "Redis", path: "/assets/logos/redis.svg" },
+      { id: 7, name: "AWS", path: "/assets/logos/aws.svg" },
+    ],
+  },
+  {
     id: 1,
     title: "ProfitPulse: Stock Prediction & Community Platform",
     description: "A comprehensive platform that combines stock market prediction with a community-driven learning environment.",
@@ -196,6 +227,19 @@ export const mySocials = [
 
 export const experiences = [
   {
+    title: "Software Engineer | Full-Stack & AI",
+    job: "Sowaka",
+    date: "Aug 2026 - Present",
+    contents: [
+      "Built a multi-tenant HRMS SaaS end to end as primary engineer (1,900+ commits, 340+ pull requests): Node.js/Express REST API, React 19 dashboard and Flutter iOS/Android app in a TypeScript monorepo, live with paying clients.",
+      "Built Suwi, an agentic AI assistant with LLM tool calling over 120+ tools (OpenAI, Anthropic Claude, Google Gemini), with streaming, prompt caching, role-based access, audit logs and human-in-the-loop approval.",
+      "Built real-time multiplayer games, live tournaments and a social feed on Socket.IO and Redis (pub/sub, caching); fixed a live-event outage by moving MongoDB Atlas to a closer region and tuning Nginx.",
+      "Run production on AWS (EC2, S3, CloudFront) behind Nginx with zero-downtime blue-green deployments and 90+ automated integration test suites.",
+      "Engineered an Indian payroll engine (PF, ESI, PT, TDS, gratuity) with monthly payroll runs, loss of pay, final settlements, PDF payslips and AES-256-GCM salary encryption.",
+      "Delivered attendance and HR workflows (biometric integration via SQL Server, geofenced check-in, leave, claims, KPIs, reviews) secured with RBAC; shipped the Flutter app to the App Store with Firebase push (FCM) and OTP authentication.",
+    ],
+  },
+  {
     title: "Software Development Engineer Intern",
     job: "DotPe",
     date: "Feb 2026 - July 2026",
@@ -212,9 +256,9 @@ export const experiences = [
   {
     title: "Computer Engineering Student",
     job: "Thapar Institute of Engineering and Technology",
-    date: "Sep 2022 - May 2026",
+    date: "2022 - 2026",
     contents: [
-     "Pursuing B.E in Computer Engineering and Technology ",
+      "B.E. in Computer Engineering, CGPA 8.81/10.",
       "Developing expertise in core CS subjects including Operating Systems, DBMS, Networking, OOPs, and Algorithms.",
       "Working on advanced projects involving machine learning, web development, and database management systems.",
       "Maintaining academic excellence while actively participating in extracurricular activities and technical projects.",
